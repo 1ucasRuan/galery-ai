@@ -1,0 +1,56 @@
+#container-sub_img {
+  height: 10vh;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2vh 0px 0px 0px;
+  visibility: hidden;
+}
+
+.container-seta {
+  height: 100%;
+  width: 7.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.setas {
+  color: gray;
+  text-decoration: none;
+  font-size: 200%;
+  cursor: pointer;
+}
+
+#opcoesFotos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#galeria {
+  width: 270px;
+  overflow-x: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sub_img {
+  border-radius: 5px;
+  width: 88px;
+  height: 100%;
+}
+/*# sourceMappingURL=subImg.css.map */

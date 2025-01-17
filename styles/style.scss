@@ -1,0 +1,99 @@
+@import './colors.scss';
+@import './cabecalho.scss';
+@import './container-main.scss';
+@import './subImg.scss';
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div::-webkit-scrollbar {
+    height: 5px;
+    background-color: transparent;
+    
+}
+div::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+body{
+    margin: 0px;
+    background-image: url(../images/background4.png);
+    background-size: cover;
+    background-repeat:no-repeat
+
+}
+
+
+footer{
+    background-color: gray;
+    height: 4vh;
+    text-align: center;
+    color: $azulClaro;
+}
+
+@media only screen and (min-width: 700px) {
+    #galeria{
+        width: 660px;
+        overflow-x: scroll;
+        display: flex;
+    }
+
+    .sub_img{
+        width: 88px;
+        height: 100%;
+    }
+    body{
+        background-image: url(../images/background3.png);
+        background-size: cover;
+        background-repeat:no-repeat 
+    }
+
+    #container-main{
+        width: 85%;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    #galeria{
+        width: 893px;
+        overflow-x: scroll;
+        display: flex;
+    }
+
+    .sub_img{
+        width: 120px;
+    }
+
+    body{
+        background-image: url(../images/background3.png);
+        background-size: cover;
+        background-repeat:no-repeat 
+    }
+
+    #legend-img{
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #galeria{
+        width: 1200px;
+        overflow-x: scroll;
+        display: flex;
+    }
+
+    .sub_img{
+        width: 108px;
+    }
+
+    body{
+        background-image: url(../images/background2.png);
+        background-size: cover;
+        background-repeat:no-repeat 
+    }
+    
+}

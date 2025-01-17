@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria IA</title>
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta 
+     name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+    />
+</head>
+<body>
+    <div id="cabecalho">   
+        <div id="menu-centro">
+
+        </div>
+
+        <div id="menu-busca" >
+            <input id="campoBusca" type="text" style="width: 125px;height:16px;" placeholder="Tema em inglês">
+            <a href="#container-main" id="icon-busca" onclick="criarLista()" class="fas fa-search"></a>
+        </div> 
+    </div>
+
+    <div id="container-main">
+        <div id="img-main">
+            <p id="capaAlbum">Nature</p>
+            <div id="load">
+                <div id="loading"></div>
+            </div>
+            <img id="img-big" src="images/background1.gif" alt="">
+        </div>
+        <div  target='_blank' id="legend-img">
+            <a href="https://www.pexels.com/api/" >
+                API PEXELS
+            </a>
+            
+        </div>
+        
+    </div>
+
+    <div id="container-sub_img">
+        
+        <!-- <div class="container-seta" >
+            <a id="seta1" onclick=paginacao(0) class='fas fa-angle-left setas'></a>
+        </div> -->
+
+        <div id="opcoesFotos">
+            
+            <div id="galeria">
+                <script src="scripts/scrpt2.js"></script>
+            </div>
+
+        </div>        
+        
+        <!-- <div class="container-seta">
+            <a id="seta2" onclick=paginacao(1) class='fas fa-angle-right setas'></a>
+        </div> -->
+    </div>
+    <footer style="padding-top: 10px;">
+        Copyright © 2025-2025.
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+
+</html>
